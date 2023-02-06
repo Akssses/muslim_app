@@ -1,0 +1,29 @@
+.articles_text p {
+    margin-bottom: 30px;
+}
+
+.articles_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.articles_text h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.articles_text a {
+    color: rgb(0, 149, 255);
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    .articles_text h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .articles_text h3 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
